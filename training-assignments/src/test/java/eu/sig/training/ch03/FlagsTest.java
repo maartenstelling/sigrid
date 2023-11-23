@@ -18,6 +18,10 @@ public class FlagsTest {
         assertEquals(Color.RED, colors.get(0));
         assertEquals(Color.WHITE, colors.get(1));
         assertEquals(Color.BLUE, colors.get(2));
+
+        String param = "test";
+
+        String test = "INSERT INTO Test(Id, Name) VALUES (1, " + param + ")";
     }
 
 }
