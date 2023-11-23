@@ -9,6 +9,28 @@ public class FlagFactory {
     // tag::getFlag[]
     public List<Color> getFlagColors(Nationality nationality) {
         List<Color> result;
+
+        if (nationality == DUTCH){
+            if (nationality == DUTCH){
+                if (nationality == GERMAN){
+                    if (nationality == GERMAN){
+                        if (nationality == GERMAN){
+                            if (nationality == GERMAN){
+                                if (nationality == GERMAN){
+                                    if (nationality == GERMAN){
+                                        String test = "test";
+                                    }
+                                    else if (nationality == FRENCH){
+                                        String test = "bla";
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
         switch (nationality) {
         case DUTCH:
             result = Arrays.asList(Color.RED, Color.WHITE, Color.BLUE);
